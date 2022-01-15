@@ -53,6 +53,11 @@ footer {
   text-align: center;
 }
 
-/* header,main,footer {
-  border: 2px solid red;
-} */
+@media screen and (max-width:425px) {
+  body {
+    grid-template-rows: 5% 90% 5%;
+  }
+  .finals-timer div {
+    flex-direction: column;
+  }
+}
