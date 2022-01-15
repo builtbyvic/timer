@@ -27,6 +27,6 @@
         document.getElementById("hours").innerHTML = "" 
         document.getElementById("mins").innerHTML = ""
         document.getElementById("secs").innerHTML = ""
-        document.getElementById("end").innerHTML = "IT'S TODAY";
+        document.getElementById("end").innerHTML = "ALL THE BEST!";
     }
     }, 1000);
