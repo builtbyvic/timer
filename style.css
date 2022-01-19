@@ -54,7 +54,7 @@ footer {
   text-align: center;
 }
 
-@media screen and (max-width:425px) {
+@media screen and (max-width:450px) {
   body {
     grid-template-rows: 5% 90% 5%;
   }
