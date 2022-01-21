@@ -14,9 +14,9 @@
 body {
   background-color: #292D32;
   color: #FFF;
-  display: grid;
-  grid-template-columns: 100%;
-  grid-template-rows: 10% 80% 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   margin-block: 24px;
   margin-inline: 48px;
 }
@@ -55,9 +55,6 @@ footer {
 }
 
 @media screen and (max-width:450px) {
-  body {
-    grid-template-rows: 5% 90% 5%;
-  }
   .finals-timer div {
     flex-direction: column;
   }
