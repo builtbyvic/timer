@@ -58,4 +58,7 @@ footer {
   .finals-timer div {
     flex-direction: column;
   }
+  main {
+    flex-direction: column;
+  }
 }
