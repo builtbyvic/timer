@@ -17,7 +17,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  margin-block: 24px;
+  margin-block: 16px;
   margin-inline: 48px;
 }
 a {
