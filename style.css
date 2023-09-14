@@ -15,12 +15,9 @@ a {
   text-decoration: none;
 }
 :root {
-  /* variables */
   --bg-color: #222222;
   --text-color: #ffffff;
   --metric-box-sizing: 0.5rem;
-
-  /* defaults */
   font-display: swap;
   font-family: "Mochiy Pop P One", sans-serif;
   font-size: clamp(1rem, 0.75rem + 1.5vw, 2rem);
